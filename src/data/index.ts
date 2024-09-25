@@ -1,8 +1,8 @@
 import { DiMeteorfull, DiMsqlServer } from "react-icons/di";
 import { FaBootstrap, FaReact } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
-import gastosPassa from "../assets/gastosPassa.png";
-import supervizza from "../assets/supervizza.png";
+import gastosPassa from "../assets/gastosPassa.webp";
+import supervizza from "../assets/supervizza.webp";
 
 export const navItems = [
     { name: "Experience", link: "#experience" },

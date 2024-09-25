@@ -1,6 +1,6 @@
 import { CiLinkedin, CiMail } from "react-icons/ci";
 import { motion } from "framer-motion";
-import meImg from "../assets/me.jpg";
+import meImg from "../assets/me.webp";
 
 const Hero = () => {
   return (
@@ -22,6 +22,7 @@ const Hero = () => {
               src={meImg}
               alt="picture of me"
               className="rounded-full shadow-lg w-[6.5rem] h-28 object-cover"
+              loading="lazy"
             />
           </motion.div>
           <a

@@ -34,6 +34,7 @@ const Projects = () => {
                 src={project.img}
                 alt={`Image of ${project.title}`}
                 className="w-full md:w-1/2 object-cover rounded-lg hover:scale-105 transition-transform ease-in-out duration-300"
+                loading="lazy"
               />
               <div className="py-6 px-9 flex flex-col gap-2">
                 <h2 className="text-gray-100 text-2xl flex justify-between font-semibold">
