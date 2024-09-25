@@ -10,6 +10,7 @@ const Experience = () => {
       className="section"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
       viewport={{ once: true }}
     >
       <h2 className="text-3xl font-bold flex items-center gap-3 mb-10">

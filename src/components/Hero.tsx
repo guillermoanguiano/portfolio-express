@@ -9,6 +9,7 @@ const Hero = () => {
       className="py-16 md:py-32 section"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
       viewport={{ once: true }}
     >
       <div className="max-w-xl flex flex-col items-center md:items-start">
