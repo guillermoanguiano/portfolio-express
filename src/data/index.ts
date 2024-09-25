@@ -1,6 +1,8 @@
 import { DiMeteorfull, DiMsqlServer } from "react-icons/di";
 import { FaBootstrap, FaReact } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
+import gastosPassa from "../assets/gastosPassa.png";
+import supervizza from "../assets/supervizza.png";
 
 export const navItems = [
     { name: "Experience", link: "#experience" },
@@ -35,7 +37,7 @@ export const projects = [
         id: 1,
         title: "Refound System - Passa",
         description: "A system that allows accountants and employees to manage the refund process in Agricola Passa. The client wanted to use Meteor with React to develop the system.",
-        img: "/gastosPassa.png",
+        img: gastosPassa,
         iconLists: [
             { icon: DiMeteorfull, name: "Meteor.js" },
             { icon: FaReact, name: "React" },
@@ -50,7 +52,7 @@ export const projects = [
         id: 2,
         title: "Supervizza - Calzzapato",
         description: "I created this project at my first job. It is a system that allows you to manage your employees and their schedules.",
-        img: "/supervizza.png",
+        img: supervizza,
         iconLists: [
             { icon: DiMeteorfull, name: "Meteor.js" },
             { icon: FaReact, name: "React" },

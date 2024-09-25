@@ -1,5 +1,6 @@
 import { CiLinkedin, CiMail } from "react-icons/ci";
 import { motion } from "framer-motion";
+import meImg from "../assets/me.jpg";
 
 const Hero = () => {
   return (
@@ -18,7 +19,7 @@ const Hero = () => {
             transition={{ duration: 0.5 }}
           >
             <img
-              src="/me.jpg"
+              src={meImg}
               alt="picture of me"
               className="rounded-full shadow-lg w-[6.5rem] h-28 object-cover"
             />
