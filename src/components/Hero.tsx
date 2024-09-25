@@ -13,18 +13,14 @@ const Hero = () => {
     >
       <div className="max-w-xl flex flex-col items-center md:items-start">
         <div className="flex gap-4 b-4">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
-          >
+          <div>
             <img
               src={meImg}
               alt="picture of me"
               className="rounded-full shadow-lg w-[6.5rem] h-28 object-cover"
               loading="lazy"
             />
-          </motion.div>
+          </div>
           <a
             href="https://linkedin.com/in/guille128"
             target="_blank"

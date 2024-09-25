@@ -27,7 +27,7 @@ const Projects = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: false, amount: 0.3 }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.5 }}
               className="border flex flex-col md:flex-row border-gray-600 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-gray-700/10"
             >
               <img

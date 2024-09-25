@@ -13,7 +13,7 @@ export default defineConfig({
       quality: 80,
     },
     webp: {
-      quality: 76,
+      quality: 70,
     
     },
   })],

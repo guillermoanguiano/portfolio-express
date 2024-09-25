@@ -19,13 +19,7 @@ const Experience = () => {
       <motion.div className="space-y-8" initial="hidden" animate="visible">
         {experience.map((experience, index) => (
           <Reveal key={index} width="w-full">
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: false, amount: 0.3 }}
-              transition={{ duration: 1 }}
-              className="border border-gray-600 py-6 px-9 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-gray-700/10"
-            >
+            <div className="border border-gray-600 py-6 px-9 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-gray-700/10">
               <h2 className="text-gray-100 text-2xl flex justify-between font-semibold">
                 {experience.company}
                 <span className="text-gray-300 text-sm text-right">
@@ -44,7 +38,7 @@ const Experience = () => {
                   ))}
                 </p>
               </div>
-            </motion.div>
+            </div>
           </Reveal>
         ))}
       </motion.div>

@@ -1,13 +1,9 @@
-import { motion } from "framer-motion";
 import { navItems } from "../data";
 
 const Header = () => {
   return (
-    <motion.header
+    <header
       className="w-full flex items-center justify-center"
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      viewport={{ once: true }}
     >
       <div className="flex gap-5 p-5">
         {navItems.map((item, index) => (
@@ -20,7 +16,7 @@ const Header = () => {
           </a>
         ))}
       </div>
-    </motion.header>
+    </header>
   );
 };
 
