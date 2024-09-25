@@ -7,7 +7,7 @@ import supervizza from "../assets/supervizza.png";
 export const navItems = [
     { name: "Experience", link: "#experience" },
     { name: "Projects", link: "#projects" },
-    { name: "About me", link: "#about" },
+    { name: "About", link: "#about" },
     { name: "Contact", link: "#contact" },
 ];
 

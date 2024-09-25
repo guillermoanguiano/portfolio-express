@@ -28,12 +28,12 @@ const Projects = () => {
               whileInView="visible"
               viewport={{ once: false, amount: 0.3 }}
               transition={{ duration: 1 }}
-              className="border flex border-gray-600 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-gray-700/10"
+              className="border flex flex-col md:flex-row border-gray-600 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-gray-700/10"
             >
               <img
                 src={project.img}
                 alt={`Image of ${project.title}`}
-                className="w-1/2 object-cover rounded-lg hover:scale-105 transition-transform ease-in-out duration-300"
+                className="w-full md:w-1/2 object-cover rounded-lg hover:scale-105 transition-transform ease-in-out duration-300"
               />
               <div className="py-6 px-9 flex flex-col gap-2">
                 <h2 className="text-gray-100 text-2xl flex justify-between font-semibold">
