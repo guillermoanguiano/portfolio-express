@@ -9,7 +9,7 @@ const Header = () => {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
     >
-      <div className="flex gap-5 p-3">
+      <div className="flex gap-5 p-5">
         {navItems.map((item, index) => (
           <a
             href={item.link}

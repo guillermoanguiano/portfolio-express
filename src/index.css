@@ -3,13 +3,17 @@
 @tailwind utilities;
 
 @layer components {
+
+  body {
+    @apply h-dvh
+  }
   .app-container {
     @apply text-white min-h-dvh w-full bg-gray-950 max-sm:px-4 max-md:px-6;
-    background-image: radial-gradient(
+    /* background-image: radial-gradient(
       ellipse 80% 90% at 50% -20%,
       rgba(75, 0, 130, 0.5),
       rgba(0, 0, 0, 0)
-    );
+    ); */
     font-family: "Montserrat", system-ui;
     font-optical-sizing: auto;
     font-weight: <weight>;
@@ -27,13 +31,13 @@
   }
 
   .available-badge {
-    @apply inline-flex items-center justify-center w-full px-3 py-1 text-sm text-lime-400 bg-gray-800 rounded-full cursor-pointer dark:bg-black dark:text-lime-500 backdrop-blur-3xl whitespace-nowrap;
+    @apply inline-flex items-center justify-center w-full px-3 py-1 text-sm text-lime-400 bg-gray-800 rounded-full cursor-pointer backdrop-blur-3xl whitespace-nowrap;
   }
 
   .hero-btn {
-    @apply flex gap-1 items-center transition bg-indigo-700/65 hover:bg-indigo-800 rounded-md px-3 py-2 border-2 border-indigo-800;
+    @apply flex gap-1 items-center transition px-3 py-2 border-2 rounded-xl hover:bg-black/20;
   }
-
+  
   .section {
     @apply scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl;
   }

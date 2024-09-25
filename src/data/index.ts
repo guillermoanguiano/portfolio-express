@@ -1,3 +1,7 @@
+import { DiMeteorfull, DiMsqlServer } from "react-icons/di";
+import { FaBootstrap, FaReact } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+
 export const navItems = [
     { name: "Experience", link: "#experience" },
     { name: "Projects", link: "#projects" },
@@ -29,18 +33,31 @@ export const experience = [
 export const projects = [
     {
         id: 1,
-        title: "Refound System - Agricola Passa",
-        description: "A system that allows accountants and employees to manage the refund process in Agricola Passa.",
-        img: "/p1.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "/ui.earth.com",
+        title: "Refound System - Passa",
+        description: "A system that allows accountants and employees to manage the refund process in Agricola Passa. The client wanted to use Meteor with React to develop the system.",
+        img: "/gastosPassa.png",
+        iconLists: [
+            { icon: DiMeteorfull, name: "Meteor.js" },
+            { icon: FaReact, name: "React" },
+            { icon: FaBootstrap, name: "Bootstrap" },
+            { icon: SiMongodb, name: "MongoDB" },
+            { icon: DiMsqlServer, name: "SQL Server" }
+        ],
+        link: "#",
+        createdAt: "2024",
     },
     {
         id: 2,
         title: "Supervizza - Calzzapato",
         description: "I created this project at my first job. It is a system that allows you to manage your employees and their schedules.",
-        img: "/p2.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "/ui.yoom.com",
+        img: "/supervizza.png",
+        iconLists: [
+            { icon: DiMeteorfull, name: "Meteor.js" },
+            { icon: FaReact, name: "React" },
+            { icon: FaBootstrap, name: "Bootstrap" },
+            { icon: SiMongodb, name: "MongoDB" }
+        ],
+        link: "#",
+        createdAt: "2024",
     },
 ];

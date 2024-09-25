@@ -5,12 +5,12 @@ const Hero = () => {
   return (
     <motion.section
       id="hero"
-      className="py-16 md:py-36 section"
+      className="py-16 md:py-32 section"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
     >
-      <div className="max-w-xl">
+      <div className="max-w-xl flex flex-col items-center md:items-start">
         <div className="flex gap-4 b-4">
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
@@ -42,9 +42,9 @@ const Hero = () => {
         </h1>
         <p className="mt-6 text-xl [&>strong]:font-semibold text-gray-300">
           <strong>Fullstack Developer with +1 years of experience</strong>{" "}
-          offering multilingual programming, system monitoring and maintenance
-          prowess. Dedicated to continuous learning from other developers and
-          team members.
+          skilled in building dynamic, scalable applications. Passionate about
+          problem-solving, continuous learning, and collaborating with diverse
+          teams to deliver innovative web solutions.
         </p>
         <nav className="mt-4 flex gap-4">
           <a className="hero-btn" href="mailto:jguillermoang@gmail.com">
